@@ -9,8 +9,8 @@ number:
 date:
 consensus: true
 v: 3
-area: AREA
-workgroup: WG Working Group
+# area: AREA
+# workgroup: WG Working Group
 keyword:
  - OAuth2
  - IMAP
@@ -23,7 +23,7 @@ venue:
 #  mail: WG@example.com
 #  arch: https://example.com/WG
   github: "benbucksch/mauth-spec"
-  latest: https://benbucksch.github.io/mauth-spec/draft-mauth.html
+  latest: "https://benbucksch.github.io/mauth-spec/draft-mauth.html"
 
 author:
  -
