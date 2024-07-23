@@ -9,8 +9,8 @@ number:
 date:
 consensus: true
 v: 3
-# area: AREA
-# workgroup: WG Working Group
+area: art
+workgroup: extra
 keyword:
  - OAuth2
  - IMAP
@@ -18,10 +18,10 @@ keyword:
  - POP3
  - XMPP
 venue:
-#  group: WG
-#  type: Working Group
-#  mail: WG@example.com
-#  arch: https://example.com/WG
+  group: extra
+  type: Working Group
+  mail: extra@ietf.org
+  arch: https://mailarchive.ietf.org/arch/browse/extra/
   github: "benbucksch/mauth-spec"
   latest: "https://benbucksch.github.io/mauth-spec/draft-mauth.html"
 
