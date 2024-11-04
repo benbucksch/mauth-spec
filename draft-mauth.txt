@@ -4,8 +4,8 @@
 
 extra                                                         B. Bucksch
 Internet-Draft                                                    Beonex
-Intended status: Informational                              23 July 2024
-Expires: 24 January 2025
+Intended status: Informational                           4 November 2024
+Expires: 8 May 2025
 
 
      mAuth - OAuth2 profile for mail apps and other public clients
@@ -51,7 +51,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 24 January 2025.
+   This Internet-Draft will expire on 8 May 2025.
 
 Copyright Notice
 
@@ -158,9 +158,10 @@ Table of Contents
 3.1.  Rationale
 
    OAuth2 was created with server-to-server relations in mind, where a
-   contractual relationship between both parties exist.  RFC 6749
-   states: 'Client ID ... may require a contractual relationship...'
-   (TODO find quote)
+   contractual relationship between both parties exist.  [OAuth2.1]
+   Section 2 states: "Client Registration ... typically involve the
+   client developer manually ... creating an account and agreeing to the
+   service's Terms of Service".
 
    This concept is not compatible with the concept of mail clients.  A
    mail client cannot realistically register with all mail providers in
