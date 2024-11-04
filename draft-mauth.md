@@ -88,9 +88,8 @@ implements this protocol, the server MUST ignore the unsupported scope and issue
 ## Rationale
 
 OAuth2 was created with server-to-server relations in mind, where a contractual relationship between both
-parties exist. RFC 6749 states:
-'Client ID ... may require a contractual relationship...'
-(TODO find quote)
+parties exist. [OAuth2.1] Section 2 states:
+"Client Registration ... typically involve the client developer manually ... creating an account and agreeing to the service's Terms of Service".
 
 This concept is not compatible with the concept of mail clients. A mail client cannot realistically register with all mail providers in the world.
 
